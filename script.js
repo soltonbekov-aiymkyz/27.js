@@ -113,6 +113,7 @@ printMessage ("kendji ",  "nothing much what's new"  )
 
 
 //exercize #3
+/*
 printCount(10);//1 2 3 4 5 6 7 8 9
 printCount(5);// 1 2 3 4 5 
 printCount(1);// 1
@@ -122,8 +123,130 @@ function printCount( a) {
 for ( let i = 1; i <= a; i++ ){
 printLine(i)
 }
+}
+*/
+/*
+//s
+printCount(35);//1 2 3 4 5 6 7 8 9
+printCount(25);// 1 2 3 4 5 
+printCount(11);// 1
+
+function printCount( b) {
+for ( let i = 1; i <= b; i++ ){
+printLine(i)
+}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//1 funksya nazyvanya (scobka parametr or chislo )
+//{} //parametr to shto bbodit polzovatel
+function example (number){
+    for (let i = 1; i <= number; i++){
+        document.write (i + "<br>")
+    }
+}
+
+example(10)
+
+//vyzybaem funksiii
+
+
+
+//posle funksii {} scobki idet!
+
+function example (number){
+    number = prompt("get number")
+    for (let i = 1; i <= number; i++){
+        document.write (i + "<br>")
+    }
+}
+
+example()
+
+
+//pos
+
+function example (number){
+    number = prompt("get number")
+    for (let i = 1; i <= number; i++){
+        document.write (i + "<br>")
+    }
+}
+example()
+//error function
+
+let example2 = number2 => {
+    number = prompt("get number")
+    for (let i = 1; i <= number; i++){
+        document.write (i + "<br>")
+    }
+}
+
+function kdjkf (a,b){
 
 }
 
+//kak vyzyvat parametr
+function name (ex ){
+  console.log(ex)
+}
+name("this function")
+
+*/
+////////////////
 
 
+function firstName (ex ){
+    let firstName = "kendji";
+    printLine(firstName)
+  }
+  firstName()
+
+
+  
+  function yourName (){
+    let question = "whats your name";
+    printLine(question )
+  }
+  yourName()
+
+
+  function lastname (last) {
+      last = prompt("whats your last name")
+      printLine(last)
+  }
+  lastname()//esli ne pishem to nichego ne rabotaet 
+
+
+  
+  function howyouyear (year) {
+    year = prompt("how old are you ")
+    printLine(year)
+}
+howyouyear()
