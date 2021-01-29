@@ -250,3 +250,15 @@ function firstName (ex ){
     printLine(year)
 }
 howyouyear()
+
+
+function howoldareyou (old) {
+    old = prompt("how old are you ")
+    printLine(old)
+}
+howaldareyou()
+
+
+//zadaniya
+
+
