@@ -1,18 +1,11 @@
 function dw(text){
-    document.write(text)
+    document.write( "<br>" + text)
 }
-
 //     //object 
 //     //fundamentalnyi chast js 
 //     //2 sposob
 //     var object1 = new Object();
-//     //baza danyx
-//     var object2 = {};
-//     var user = {
-// firstName: "elon",//svoistv kluch ,znachenie 
-// lastname: "Musk",
-//     };
-
+//1ex
     // var user = {
     //     firstName: "elon",
     //     lastname: "Musk",
@@ -20,32 +13,29 @@ function dw(text){
     //     "Live in us": true,
     //         };
 
-
-
-
-     //objickt in objeckt   
-     //pro elon     
-     /*
+     //objickt in objeckt       
+     
     var user = {
         firstName: "elon",
         lastname: "Musk",
     personalData:{
-        favoriteToy: "tesa",
+        favoriteToy: "tesla",
         usesTwitter: true,
         "live in us": true,
     }
-            };
+            };/*
+            alert(user.firstName);*/
 dw(user.firstName)
 dw(user.lastname)
 dw(user.firstName + " " + user.lastname);
 dw(user.personalData.usesTwitter);//always use
 dw(user.personalData["liva in us"]);
 dw(user.personalData["favoriteToy"]);
-dw(user["personalData"][favoriteToy]);
+//dw(user["personalData"][favoriteToy]);
 
 let what = prompt("what do wanna know about Elon?")
 dw(user.personalData[what])
-*/
+
 
 
 
@@ -160,7 +150,7 @@ exampme.text = "bye";
 
 
 
-
+/*
 let user = {
     lampochka: "belaya ",
     veshalka: "steklyannaya",
@@ -173,10 +163,13 @@ personalData:{
     "live in kg": true,
 }
         };
-        
          dw(user.lampochka)
         dw(user.veshalka)
         dw(user.lampochka+ " " + user.veshalka);
         dw(user.personalData.sobaka);
         dw(user.personalData["live in kg"]);
        
+let user = {
+    snow: "white",
+    belka: ""
+}*/
