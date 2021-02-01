@@ -14,7 +14,7 @@ function dw(text){
     //         };
 
      //objickt in objeckt       
-     
+     /*
     var user = {
         firstName: "elon",
         lastname: "Musk",
@@ -23,8 +23,8 @@ function dw(text){
         usesTwitter: true,
         "live in us": true,
     }
-            };/*
-            alert(user.firstName);*/
+            };
+            alert(user.firstName);
 dw(user.firstName)
 dw(user.lastname)
 dw(user.firstName + " " + user.lastname);
@@ -35,15 +35,10 @@ dw(user.personalData["favoriteToy"]);
 
 let what = prompt("what do wanna know about Elon?")
 dw(user.personalData[what])
-
-
-
-
+*/
 
 //create objeckt
-
-
-
+///FUNCTION IN OBJEDCT 
 /*
 var user = {
     firstName: "elon",
@@ -56,8 +51,6 @@ personalData:{
     playGolf: true
 },
 */
-
-
 //funksii vnutri obektov
 /*
 sayHello: function(){
@@ -173,3 +166,30 @@ let user = {
     snow: "white",
     belka: ""
 }*/
+
+
+
+
+var user = {
+    firstName: "elon",
+    lastname: "Musk",
+personalData:{
+    favoriteToy: "tesa",
+    usesTwitter: true,
+    twitterHandler:"@ELon mask",
+    "live in us": true,
+    playGolf: true
+},
+sayHello: function(){
+    dw("hello ")
+    dw("hello my name is" + this.firstName)
+},
+        }; 
+dw(user.firstName)
+dw(user.lastname)
+dw(user.personalData.usesTwitter);//always use
+dw(user.personalData["liva in us"]);
+dw(user.personalData["favoriteToy"]);
+user.sayHello();
+
+//helpful
